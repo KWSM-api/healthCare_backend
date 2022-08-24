@@ -1,0 +1,12 @@
+C:\Users\LENOVO\source\repos\HealthCare\application\bin\Debug\net6.0\application.deps.json
+C:\Users\LENOVO\source\repos\HealthCare\application\bin\Debug\net6.0\application.dll
+C:\Users\LENOVO\source\repos\HealthCare\application\bin\Debug\net6.0\application.pdb
+C:\Users\LENOVO\source\repos\HealthCare\application\obj\Debug\net6.0\application.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\HealthCare\application\obj\Debug\net6.0\application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\HealthCare\application\obj\Debug\net6.0\application.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\HealthCare\application\obj\Debug\net6.0\application.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\HealthCare\application\obj\Debug\net6.0\application.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\HealthCare\application\obj\Debug\net6.0\application.dll
+C:\Users\LENOVO\source\repos\HealthCare\application\obj\Debug\net6.0\refint\application.dll
+C:\Users\LENOVO\source\repos\HealthCare\application\obj\Debug\net6.0\application.pdb
+C:\Users\LENOVO\source\repos\HealthCare\application\obj\Debug\net6.0\ref\application.dll

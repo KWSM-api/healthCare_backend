@@ -1,6 +1,15 @@
+
+using Microsoft.EntityFrameworkCore;
+using persistence;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Server=DESKTOP-6H6EI1H\\SQLEXPRESS;Database=healthCare;Trusted_Connection=True;MultipleActiveResultSets=true"));
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
