@@ -3,9 +3,7 @@ C:\Users\LENOVO\source\repos\HealthCare\persistence\bin\Debug\net6.0\persistence
 C:\Users\LENOVO\source\repos\HealthCare\persistence\bin\Debug\net6.0\persistence.dll
 C:\Users\LENOVO\source\repos\HealthCare\persistence\bin\Debug\net6.0\persistence.pdb
 C:\Users\LENOVO\source\repos\HealthCare\persistence\bin\Debug\net6.0\application.dll
-C:\Users\LENOVO\source\repos\HealthCare\persistence\bin\Debug\net6.0\domain.dll
 C:\Users\LENOVO\source\repos\HealthCare\persistence\bin\Debug\net6.0\application.pdb
-C:\Users\LENOVO\source\repos\HealthCare\persistence\bin\Debug\net6.0\domain.pdb
 C:\Users\LENOVO\source\repos\HealthCare\persistence\obj\Debug\net6.0\persistence.csproj.AssemblyReference.cache
 C:\Users\LENOVO\source\repos\HealthCare\persistence\obj\Debug\net6.0\persistence.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\LENOVO\source\repos\HealthCare\persistence\obj\Debug\net6.0\persistence.AssemblyInfoInputs.cache

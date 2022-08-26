@@ -734,24 +734,14 @@
       "application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/application.dll": {}
-        }
-      },
-      "domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.8"
         },
         "compile": {
-          "bin/placeholder/domain.dll": {}
+          "bin/placeholder/application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/domain.dll": {}
+          "bin/placeholder/application.dll": {}
         }
       },
       "persistence/1.0.0": {
@@ -760,8 +750,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
-          "application": "1.0.0",
-          "domain": "1.0.0"
+          "application": "1.0.0"
         },
         "compile": {
           "bin/placeholder/persistence.dll": {}
@@ -2155,11 +2144,6 @@
       "type": "project",
       "path": "../application/application.csproj",
       "msbuildProject": "../application/application.csproj"
-    },
-    "domain/1.0.0": {
-      "type": "project",
-      "path": "../domain/domain.csproj",
-      "msbuildProject": "../domain/domain.csproj"
     },
     "persistence/1.0.0": {
       "type": "project",

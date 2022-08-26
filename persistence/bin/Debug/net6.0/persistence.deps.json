@@ -12,8 +12,7 @@
           "Microsoft.EntityFrameworkCore.Design": "6.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.8",
-          "application": "1.0.0",
-          "domain": "1.0.0"
+          "application": "1.0.0"
         },
         "runtime": {
           "persistence.dll": {}
@@ -544,16 +543,11 @@
         }
       },
       "application/1.0.0": {
-        "runtime": {
-          "application.dll": {}
-        }
-      },
-      "domain/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.8"
         },
         "runtime": {
-          "domain.dll": {}
+          "application.dll": {}
         }
       }
     }
@@ -901,11 +895,6 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "application/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
