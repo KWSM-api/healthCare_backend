@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace application.Entitys
 {
-    internal class Appointment
+    internal class Appointment: Base
     {
     }
 }

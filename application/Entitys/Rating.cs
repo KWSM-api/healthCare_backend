@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace application.Entitys
 {
-    internal class Attendance: Base
+    internal class Rating : Base
     {
-        public DateTime StartDate { get; set; }
-        public DateTime? EndDate { get; set; }
+        public string Message { get; set; }
+        public int Value { get; set; }
 
-        public Doctor DoctorId { get; set; }
-
+        public int DoctorId { get; set; }
         public Doctor Doctor { get; set; }
     }
 }

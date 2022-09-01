@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace application.Entitys
 {
-    internal class Catgory
+    internal class Catgory: Base
     {
+        public string Name { get; set; }
+        public ICollection<Doctor> Doctors { get; set; }
+
+
+        public Catgory()
+        {
+            Doctors = new HashSet<Doctor>();
+        }
     }
 }

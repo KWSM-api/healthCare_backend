@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace application.Entitys
 {
-    internal class Contract : Base
+    internal class Base
     {
         public int Id { get; set; }
-        public decimal HourSalary { get; set; }
-        public int MonthlyWorkingHours { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime DeletedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
+
     }
 }
