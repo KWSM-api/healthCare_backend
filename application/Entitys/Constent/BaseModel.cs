@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace application.Entitys
+namespace application.Entitys.Constent
 {
-    internal class Base
+    public abstract class BaseModel
     {
         public int Id { get; set; }
         public DateTime CreatedAt { get; set; }

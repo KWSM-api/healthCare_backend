@@ -1,4 +1,5 @@
-﻿using System;
+﻿using application.Entitys.Constent;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace application.Entitys
 {
-    internal class Doctor : Base
+    public class Doctor : BaseModel
     {
         public string Image { get; set; }
         public int Experience { get; set; }
@@ -16,14 +17,15 @@ namespace application.Entitys
         public int ContractId { get; set; }
         public Contract Contract { get; set; }
         public Clinic Clinic { get; set; }
-        public Catgory Catgory { get; set; }
+        public Category Category { get; set; }
         public User User { get; set; }
         public ICollection<Attendance> Attendances { get; set; }
-
+        public ICollection<Appointment> Appointments { get; set; }
 
         public Doctor()
         {
             Attendances = new HashSet<Attendance>();
+            Appointments = new HashSet<Appointment>();
         }
     }
 }

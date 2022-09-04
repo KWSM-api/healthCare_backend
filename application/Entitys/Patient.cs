@@ -7,13 +7,17 @@ using System.Threading.Tasks;
 
 namespace application.Entitys
 {
-    public class BankAccount : BaseModel
+    public class Patient : BaseModel
     {
-      
 
-        public string CardNum { get; set; }
-        public decimal Balance { get; set; }
         public int UserId { get; set; }
         public User User { get; set; }
+        public ICollection<Appointment> Appointments { get; set; }
+
+
+        public Patient()
+        {
+             Appointments = new HashSet<Appointment>();
+        }
     }
 }
