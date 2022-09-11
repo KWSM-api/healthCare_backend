@@ -17,5 +17,7 @@ namespace persistence.Utils
                  options => options.UseSqlServer("Server=DESKTOP-6H6EI1H\\SQLEXPRESS;Database=healthCare;Trusted_Connection=True;MultipleActiveResultSets=true")
                 ) ;
         }
+
+
     }
 }

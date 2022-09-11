@@ -7,13 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="contracts\Repositories\" />
-    <Folder Include="contracts\services\" />
-    <Folder Include="DTOs\" />
-    <Folder Include="services\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.8" />
   </ItemGroup>
 
