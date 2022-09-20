@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace application.contracts.services
 {
-    public interface IClinicService: ICreate<Clinic>, IUpdate<Clinic>, IDelete, IGetAll<Clinic>, IGetById<Clinic>   
+    public interface IClinicService  
     {
     }
 }

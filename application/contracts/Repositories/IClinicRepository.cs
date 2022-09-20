@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace application.contracts
 {
-    public interface IClinicRepository: ICreate<Clinic> , IUpdate<Clinic>, IDelete, IGetById<Clinic>, IGetAll<Clinic>
+    public interface IClinicRepository: IRepository<Clinic>
     {
-
+        
     }
 }

@@ -25,12 +25,10 @@ namespace persistence.Repositories
             return clinic;
         }
 
-        public bool Delete(int id)
+        public void Delete(int id)
         {
            _appDbContext.Remove(new Clinic { Id = id});
            _appDbContext.SaveChanges ();
-
-            return true;
         }
 
         public ICollection<Clinic> GetAll()
